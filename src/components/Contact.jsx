@@ -26,7 +26,7 @@ const Contact = () => {
     }, [])
 
     return (
-        <form className="container" onSubmit={e => {
+        <form className="border-b-black rounded-t-2xl px-4 bg-contact-color" onSubmit={e => {
             e.preventDefault();
         }}>
             <label>First Name
